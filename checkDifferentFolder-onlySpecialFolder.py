@@ -55,8 +55,10 @@ def write_file(content):
         print "Done!"
     
 if __name__ == '__main__':
-    path1 = format_path(raw_input('Please input PATH 1: '))
-    path2 = format_path(raw_input('Please input PATH 2: '))
+    #path1 = format_path(raw_input('Please input PATH 1: '))
+    #path2 = format_path(raw_input('Please input PATH 2: '))
+    path1 = "D:\\20160205_tmp-simple\\03 232122"
+    path2 = "D:\\20160205_tmp-simple\\05 154131"
     print path1
     print path2
     write_file(file_contrast(path1, path2))
