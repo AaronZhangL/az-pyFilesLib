@@ -1,0 +1,4 @@
+Path	Filename	Size	Signature	RESULTS
+C:\	a.txt	14kb	012345	NOT FOUND in masterlist 
+D:\	b.txt	99kb	678910	 FOUND in masterlist (row 1)
+C:\	c.txt	44kb	111213	 FOUND in masterlist (row 2)

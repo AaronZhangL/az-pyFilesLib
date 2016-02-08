@@ -43,8 +43,8 @@ def print_diff_files(dcmp, f):
         print_diff_files(sub_dcmp, f)
 
 if __name__ == '__main__':
-    path1 = format_path(raw_input('Please input PATH 1: '))
-    path2 = format_path(raw_input('Please input PATH 2: '))
-    #path1 = "D:\\temp\\20160205diffFolder\\20160205_tmp\\03 232122"
-    #path2 = "D:\\temp\\20160205diffFolder\\20160205_tmp\\05 154131"
+    #path1 = format_path(raw_input('Please input PATH 1: '))
+    #path2 = format_path(raw_input('Please input PATH 2: '))
+    path1 = "D:\\temp\\20160205diffFolder\\20160205_tmp\\03 232122"
+    path2 = "D:\\temp\\20160205diffFolder\\20160205_tmp\\05 154131"
     write_file(path1, path2)    
